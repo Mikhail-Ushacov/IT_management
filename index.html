@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
-    <title>MyStore - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStore - Головна</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +13,9 @@
         <nav>
             <h2>MyStore</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="cart.html">Cart</a></li>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="products.html">Товари</a></li>
+                <li><a href="cart.html">Кошик</a></li>
             </ul>
         </nav>
     </div>
@@ -21,14 +23,100 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Welcome to MyStore</h1>
-        <p>Best products at the best prices</p>
-        <a href="products.html" class="btn">Shop Now</a>
+        <h1>Ласкаво просимо до MyStore</h1>
+        <p>Якісні товари за доступними цінами</p>
+        <a href="products.html" class="btn">Перейти до покупок</a>
+    </div>
+</section>
+
+<section class="products container">
+    <h2 style="margin-bottom:20px;">Популярні товари</h2>
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h3>Смарт-годинник</h3>
+            <p>₴2999</p>
+            <a href="product.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h3>Навушники</h3>
+            <p>₴1599</p>
+            <a href="product.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h3>Рюкзак</h3>
+            <p>₴899</p>
+            <a href="product.html" class="btn">Детальніше</a>
+        </div>
+
+    </div>
+</section>
+
+<section style="background:#fff;padding:50px 0;margin-top:40px;">
+    <div class="container">
+        <h2 style="text-align:center;margin-bottom:30px;">Чому обирають нас?</h2>
+
+        <div class="product-grid">
+            <div class="card">
+                <h3>🚚 Швидка доставка</h3>
+                <p>Доставляємо по всій Україні протягом 1-3 днів.</p>
+            </div>
+
+            <div class="card">
+                <h3>💳 Безпечна оплата</h3>
+                <p>Підтримка онлайн-оплати та післяплати.</p>
+            </div>
+
+            <div class="card">
+                <h3>⭐ Гарантія якості</h3>
+                <p>Офіційна гарантія на всі товари.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ВІДГУКИ -->
+<section class="products container">
+    <h2 style="margin-bottom:20px;">Відгуки клієнтів</h2>
+
+    <div class="product-grid">
+        <div class="card">
+            <p>"Дуже швидка доставка і чудова якість!"</p>
+            <strong>— Олена</strong>
+        </div>
+
+        <div class="card">
+            <p>"Замовляю вже не вперше. Рекомендую!"</p>
+            <strong>— Андрій</strong>
+        </div>
+
+        <div class="card">
+            <p>"Все відповідає опису. Супер сервіс."</p>
+            <strong>— Марія</strong>
+        </div>
+    </div>
+</section>
+
+<section style="background:#0077ff;color:white;padding:50px 0;text-align:center;">
+    <div class="container">
+        <h2>Готові зробити покупку?</h2>
+        <p>Перегляньте весь каталог товарів прямо зараз!</p>
+        <a href="products.html" class="btn" style="background:white;color:#0077ff;">
+            Переглянути товари
+        </a>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 MyStore. All Rights Reserved.</p>
+    <div class="container">
+        <p>© 2026 MyStore. Всі права захищені.</p>
+        <p>Email: support@mystore.ua | Тел: +380 00 000 0000</p>
+    </div>
 </footer>
 
 </body>

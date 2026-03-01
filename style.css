@@ -86,3 +86,16 @@ footer {
     padding: 15px 0;
     margin-top: 30px;
 }
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
